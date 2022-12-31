@@ -1,0 +1,453 @@
+{
+  "categories": [
+    { "id": 0, "name": "All", "amount": 12 },
+    {
+      "id": 1,
+      "name": "Bed & Bath",
+      "img": "./assets/categories/category1.jpg",
+      "amount": 1
+    },
+    {
+      "id": 2,
+      "name": "Furniture",
+      "img": "./assets/categories/category2.jpg",
+      "amount": 4
+    },
+    {
+      "id": 3,
+      "name": "Home Decor",
+      "img": "./assets/categories/category3.jpg",
+      "amount": 1
+    },
+    {
+      "id": 4,
+      "name": "Lighting",
+      "img": "./assets/categories/category4.jpg",
+      "amount": 2
+    },
+    {
+      "id": 5,
+      "name": "Office",
+      "img": "./assets/categories/category5.jpg",
+      "amount": 2
+    },
+    {
+      "id": 6,
+      "name": "Outdoor",
+      "img": "./assets/categories/category6.jpg",
+      "amount": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "name": "Chair Oak Matt Lacquered",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product1.jpg" },
+        { "id": 2, "src": "./assets/products/product1-2.jpg" }
+      ],
+      "price": 150,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["S", "M"],
+      "colors": ["#c6bfad", "#d5a948"],
+      "category": "Furniture",
+      "brand": "Blast",
+      "SKU": "D2300-3-2-2",
+      "inStock": true,
+      "tags": ["Hot", "Trend"],
+      "stars": 4.5,
+      "ratings": 3,
+      "reviews": [
+        {
+          "id": 0,
+          "name": "Peter Capidal",
+          "rating": 5,
+          "review": "good",
+          "date": "January 12, 2022"
+        }
+      ],
+      "additionalInformation": { "colors": ["Beige", "Yellow"] }
+    },
+    {
+      "id": 1,
+      "name": "Pillar Dining Table Round",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product2.jpg" },
+        { "id": 2, "src": "./assets/products/product2-2.jpg" }
+      ],
+      "price": 150,
+      "discount": 50,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["M"],
+      "colors": ["#b38154", "#000"],
+      "category": "Furniture",
+      "brand": "Money",
+      "SKU": "D2315-3-2-2",
+      "inStock": true,
+      "tags": ["Hot", "Trend"],
+      "stars": 5,
+      "ratings": 7,
+      "reviews": [
+        {
+          "id": 0,
+          "name": "Peter Capidal",
+          "rating": 5,
+          "review": "good",
+          "date": "January 12, 2022"
+        },
+        {
+          "id": 1,
+          "name": "Thanos",
+          "rating": 5,
+          "review": "Perfectly balanced, as all things should be",
+          "date": "July 26, 2019"
+        }
+      ],
+      "additionalInformation": { "colors": ["Brown", "Black"] }
+    },
+    {
+      "id": 2,
+      "name": "Amp Pendant Light Large",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product3.jpg" },
+        { "id": 2, "src": "./assets/products/product3-2.jpg" }
+      ],
+      "price": 150,
+      "discount": 10,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["S"],
+      "colors": ["#000"],
+      "category": "Lighting",
+      "brand": "Red Box",
+      "SKU": "D2415-3-2-2",
+      "inStock": false,
+      "tags": ["Hot", "Trend"],
+      "stars": 5,
+      "ratings": 19,
+      "reviews": [
+        {
+          "id": 0,
+          "name": "Lewis Wayne",
+          "rating": 5,
+          "review": "great",
+          "date": "October 24, 2020"
+        }
+      ],
+      "additionalInformation": { "colors": ["Black"] }
+    },
+    {
+      "id": 3,
+      "name": "Zunkel Schwarz",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product4.jpg" },
+        { "id": 2, "src": "./assets/products/product4-2.jpg" }
+      ],
+      "price": 100,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["M"],
+      "colors": ["#000"],
+      "category": "Office",
+      "brand": "Beat Sound",
+      "SKU": "D2323-3-2-2",
+      "inStock": true,
+      "tags": ["Hot", "Trend"],
+      "stars": 4,
+      "ratings": 2,
+      "reviews": [],
+      "additionalInformation": { "colors": ["Black"] }
+    },
+    {
+      "id": 4,
+      "name": "Namaste Vase",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product5.jpg" },
+        { "id": 2, "src": "./assets/products/product5-2.jpg" }
+      ],
+      "price": 200,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["S"],
+      "colors": ["#a77f73"],
+      "category": "Home Decor",
+      "brand": "Minimal",
+      "SKU": "D2015-9-1-2",
+      "inStock": true,
+      "tags": ["Hot", "Trend"],
+      "stars": 3.5,
+      "ratings": 3,
+      "reviews": [
+        {
+          "id": 0,
+          "name": "Rosie",
+          "rating": 5,
+          "review": "Very beautiful",
+          "date": "March 13, 2021"
+        }
+      ],
+      "additionalInformation": { "colors": ["Brown"] }
+    },
+    {
+      "id": 5,
+      "name": "Office Table",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product6.jpg" },
+        { "id": 2, "src": "./assets/products/product6-2.jpg" }
+      ],
+      "price": 350,
+      "discount": 75,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["M"],
+      "colors": ["#d8cdb3", "#000"],
+      "category": "Office",
+      "brand": "Minimal",
+      "SKU": "D2000-1-55-2",
+      "inStock": true,
+      "tags": [],
+      "stars": 3,
+      "ratings": 2,
+      "reviews": [],
+      "additionalInformation": { "colors": ["Brown", "Black"] }
+    },
+    {
+      "id": 6,
+      "name": "Mags Sofa 2.5 Seater",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product7.jpg" },
+        { "id": 2, "src": "./assets/products/product7-2.jpg" }
+      ],
+      "price": 500,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["L"],
+      "colors": ["#c1c2c4"],
+      "category": "Bed & Bath",
+      "brand": "Red Box",
+      "SKU": "D2456-9-0-9",
+      "inStock": true,
+      "tags": ["Trend"],
+      "stars": 3,
+      "ratings": 5,
+      "reviews": [
+        {
+          "id": 0,
+          "name": "Alice",
+          "rating": 4,
+          "review": "Comfortable",
+          "date": "June 30, 2022"
+        }
+      ],
+      "additionalInformation": { "colors": ["Gray"] }
+    },
+    {
+      "id": 7,
+      "name": "Spinning pendant lamp",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product8.jpg" },
+        { "id": 2, "src": "./assets/products/product8-2.jpg" }
+      ],
+      "price": 120,
+      "discount": 20,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["S", "M"],
+      "colors": ["#000"],
+      "category": "Lighting",
+      "brand": "Blast",
+      "SKU": "D9538-0-0-1",
+      "inStock": true,
+      "tags": [],
+      "stars": 0,
+      "ratings": 0,
+      "reviews": [],
+      "additionalInformation": { "colors": ["Black"] }
+    },
+    {
+      "id": 8,
+      "name": "Bora Armchair",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product9.jpg" },
+        { "id": 2, "src": "./assets/products/product9-2.jpg" },
+        { "id": 3, "src": "./assets/products/product9-3.jpg" }
+      ],
+      "price": 100,
+      "discount": 10,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["M"],
+      "colors": ["#697350", "#000", "#cec0b3"],
+      "category": "Outdoor",
+      "brand": "Blast",
+      "SKU": "D5638-7-0-1",
+      "inStock": true,
+      "tags": ["Trend"],
+      "stars": 0,
+      "ratings": 0,
+      "reviews": [],
+      "additionalInformation": { "colors": ["Black", "Drak Green", "Brown"] }
+    },
+    {
+      "id": 9,
+      "name": "Panton Dining Table",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product10.jpg" },
+        { "id": 2, "src": "./assets/products/product10-2.jpg" }
+      ],
+      "price": 79,
+      "discount": 50,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["S", "M"],
+      "colors": ["snow"],
+      "category": "Furniture",
+      "brand": "Money",
+      "SKU": "D1919-7-0-1",
+      "inStock": true,
+      "tags": [],
+      "stars": 3,
+      "ratings": 1,
+      "reviews": [],
+      "additionalInformation": { "colors": ["White"] }
+    },
+    {
+      "id": 10,
+      "name": "Mundo Sofa With Cushion",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product11.jpg" },
+        { "id": 2, "src": "./assets/products/product11-2.jpg" }
+      ],
+      "price": 600,
+      "discount": 150,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["L"],
+      "colors": ["#49464d"],
+      "category": "Outdoor",
+      "brand": "Minimal",
+      "SKU": "6034-7-4-9",
+      "inStock": true,
+      "tags": ["Trend"],
+      "stars": 3.5,
+      "ratings": 4,
+      "reviews": [
+        {
+          "id": 0,
+          "name": "Leen",
+          "rating": 4,
+          "review": "Good",
+          "date": "January 26, 2022"
+        }
+      ],
+      "additionalInformation": { "colors": ["Dark Blue"] }
+    },
+    {
+      "id": 11,
+      "name": "Kitchen Table",
+      "imgs": [
+        { "id": 1, "src": "./assets/products/product12.jpg" },
+        { "id": 2, "src": "./assets/products/product12-2.jpg" }
+      ],
+      "price": 120,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "size": ["S", "L"],
+      "colors": ["#000", "#dfd1c3"],
+      "category": "Furniture",
+      "brand": "Red Box",
+      "SKU": "D8631-0-1-1",
+      "inStock": true,
+      "tags": [],
+      "stars": 0,
+      "ratings": 0,
+      "reviews": [],
+      "additionalInformation": { "colors": ["Brown", "Black"] }
+    }
+  ],
+  "brands": [
+    {
+      "id": 0,
+      "name": "Blast",
+      "img": "./assets/brands/blast.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Minimal",
+      "img": "./assets/brands/minimal.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Money",
+      "img": "./assets/brands/money.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Beat Sound",
+      "img": "./assets/brands/beat-sound.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Red Box",
+      "img": "./assets/brands/red-box.jpg"
+    }
+  ],
+  "user": {
+    "info": {
+      "firstName": "Rosie",
+      "lastName": "Adams",
+      "displayName": "Rosie",
+      "password": "123",
+      "email": "rosie21@gmail.com"
+    },
+    "orders": [
+      {
+        "number": 1357,
+        "date": "March 45, 2020",
+        "status": "processing",
+        "cost": 1025,
+        "items": 3
+      },
+      {
+        "number": 2468,
+        "date": "June 29, 2020",
+        "status": "completed",
+        "cost": 2500,
+        "items": 5
+      },
+      {
+        "number": 2366,
+        "date": "August 02, 2020",
+        "status": "completed",
+        "cost": 280,
+        "items": 1
+      }
+    ],
+    "addresses": {
+      "billingAddress": {
+        "street": "3522 Interstate 75 Business Spur",
+        "city": "Sault Ste",
+        "zipCode": "Marie, MI 49783"
+      },
+      "shippingAddress": {
+        "street": "4299 Express Lane",
+        "city": "Sarasota",
+        "zipCode": "FL 34249 USA",
+        "tel": "1.941.227.4444"
+      }
+    }
+  },
+  "testimonials": [
+    {
+      "id": 0,
+      "name": "Thanos",
+      "pic": "./assets/feedback/user-1.jpg",
+      "rate": 2.5,
+      "feedback": "Wonderful communication and your company even sent a generous amount of samples to me, making my decision to spend money on an internet item easy. Thank you. Product quality is perfect."
+    },
+    {
+      "id": 1,
+      "name": "John",
+      "pic": "./assets/feedback/user-2.jpg",
+      "rate": 5,
+      "feedback": "Wonderful communication and your company even sent a generous amount of samples to me, making my decision to spend money on an internet item easy. Thank you. Product quality is perfect."
+    },
+    {
+      "id": 2,
+      "name": "Batman",
+      "pic": "./assets/feedback/user-3.jpg",
+      "rate": 4,
+      "feedback": "Wonderful communication and your company even sent a generous amount of samples to me, making my decision to spend money on an internet item easy. Thank you. Product quality is perfect."
+    }
+  ]
+}
