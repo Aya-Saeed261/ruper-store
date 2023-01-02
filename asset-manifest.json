@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ruper-store/static/css/main.e1989b83.css",
+    "main.css": "/ruper-store/static/css/main.a1be9f06.css",
     "main.js": "/ruper-store/static/js/main.64722884.js",
     "static/media/slide2.jpg": "/ruper-store/static/media/slide2.b0f3a8f4a74898c9e078.jpg",
     "static/media/post-4.jpg": "/ruper-store/static/media/post-4.ee2e27bce85f6743a0a8.jpg",
@@ -37,11 +37,11 @@
     "static/media/person-icon.svg": "/ruper-store/static/media/person-icon.4653251e1095d9a368d720c29e65e611.svg",
     "static/media/heart-icon.svg": "/ruper-store/static/media/heart-icon.7b9c9ce44125f1fc535016abb7d59f16.svg",
     "static/media/search-icon.svg": "/ruper-store/static/media/search-icon.d142b4d86556a8c6c64a32485ad16929.svg",
-    "main.e1989b83.css.map": "/ruper-store/static/css/main.e1989b83.css.map",
+    "main.a1be9f06.css.map": "/ruper-store/static/css/main.a1be9f06.css.map",
     "main.64722884.js.map": "/ruper-store/static/js/main.64722884.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1989b83.css",
+    "static/css/main.a1be9f06.css",
     "static/js/main.64722884.js"
   ]
 }
